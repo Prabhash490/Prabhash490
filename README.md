@@ -9,16 +9,24 @@
 
 ## 💫 About Me
 ```typescript
-const prabhash = {
-    education: "B.Tech in Computer Science @ Lovely Professional University",
-    experience: ["JP Morgan Chase & Co.", "Quovantis Technologies"],
-    interests: ["Full Stack Development", "Blockchain", "Cloud Computing"],
-    currentlyLearning: ["System Design", "DevOps", "Microservices"],
-    achievements: {
-        coding: "400+ Problems solved on LeetCode & GeeksForGeeks",
-        hackathons: "Smart India Hackathon Participant",
-        leadership: "College Musical Band Lead"
-    }
+const aboutMe = {
+    code: {
+        languages: ["Java", "Python", "JavaScript", "TypeScript", "C++"],
+        frontEnd: ["React", "Next.js", "Angular", "Redux", "HTML", "CSS"],
+        backEnd: ["Node.js", "Spring Boot", "ASP.NET", "Kafka"],
+        databases: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Cassandra"],
+        cloud: ["AWS", "Azure", "GCP"]
+    },
+    education: {
+        degree: "B.Tech in Computer Science",
+        university: "Lovely Professional University",
+        graduation: "2024"
+    },
+    experience: {
+        "JP Morgan Chase & Co.": "Software Engineering Virtual Experience",
+        "Quovantis Technologies": "Software Engineer Intern"
+    },
+    funFact: "I'm not just a coder - I lead a college musical band! 🎸"
 };
 ```
 
